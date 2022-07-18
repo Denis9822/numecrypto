@@ -279,3 +279,12 @@ body::-webkit-scrollbar-thumb {
         top: 31px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .header_lang.pc {
+        display: flex !important;
+    }
+    .header_lang.mob {
+        display: none !important;
+    }
+}
