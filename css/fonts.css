@@ -54,9 +54,10 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     border-radius: 20px;
-    width: 210px;
+    width: 195px;
     margin-left: 50px;
     position: relative;
+    margin-top: 2px;
 }
 
 .language--wrap svg {
