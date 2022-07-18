@@ -220,6 +220,10 @@ body::-webkit-scrollbar-thumb {
     width: auto;
 }
 
+.landingbase .container-frame-6 .progress .image img {
+    width: calc(115% - 0.5vw);
+}
+
 @media screen and (max-width: 768px) {
     .landingbase .container-frame-1 .left .text-1,
     .landingbase .container-frame-1 .left .text-2 {
