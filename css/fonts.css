@@ -236,7 +236,7 @@ body::-webkit-scrollbar-thumb {
         display: flex !important;
     }
     .navbar_container .nav_left_container .nav_left_link_container {
-        margin-right: 15px;
+        margin-right: 5px;
     }
     .navbar_container .nav_left_container .nav_left_img_container {}
     .navbar_container {
@@ -258,9 +258,9 @@ body::-webkit-scrollbar-thumb {
     .navbar_container .nav_left_container .nav_left_img_container img {
         width: 125px;
         height: auto;
-        margin-right: 10px;
+        margin-right: 5px;
         position: relative;
-        top: -4px;
+        top: -3px;
     }
     .header_lang {
         width: 64px;
