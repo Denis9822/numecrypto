@@ -209,6 +209,10 @@ body::-webkit-scrollbar-thumb {
     display: none !important;
 }
 
+.navbar_container .nav_left_container .nav_left_img_container img {
+    height: auto;
+}
+
 .navbar_container .nav_right_container {
     grid-template-columns: repeat(2, auto);
     grid-template-areas: initial;
@@ -251,8 +255,11 @@ body::-webkit-scrollbar-thumb {
         grid-area: header_lang;
     }
     .navbar_container .nav_left_container .nav_left_img_container img {
-        width: 145px;
+        width: 125px;
         height: auto;
+        margin-right: 10px;
+        position: relative;
+        top: -4px;
     }
     .header_lang {
         width: 64px;
